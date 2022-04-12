@@ -14,6 +14,10 @@ rules:
     - action: utter_goodbye
     - action: action_chat_restart
 
+- rule: get directions
+  steps:
+    - intent: get_directions
+    - action: utter_direction_type
 
 - rule: ask_name
   steps: 
@@ -35,6 +39,10 @@ rules:
     - active_loop: null
     - action: action_hotelForm
 
+- rule: whatDoUDo
+  steps: 
+  - intent: what_canU_do
+  - action: utter_functionality
 
 - rule: activate rest form
   steps:

@@ -1,4 +1,4 @@
-## Team24-COSC310
+## Joseph Gaspari Individual Project
 
 
 Flight Booking Chatbot 
@@ -360,6 +360,9 @@ the bot chooses between 5 responses when it does not understand the user input
 
 Version 3.0 now includes the ability to search restaurants near the hotel or from any location. The bot also allows the user to get directions from the hotel and restaurant they chose, or allows the user to enter in two new addresses to get directions. 
 
+If you ask the bot to find restaurants it will use the location of the hotel you select to find near by restaurants.
+
+If you ask the bot to get directions it will use the location of the hotel and the restaurant you select to give you step by step instructions on how to arrive at your location. You can also get directions to any addresses you specify in a separate story path.
 # API's Used
 
   - Chuck Norris Jokes Api
@@ -395,3 +398,5 @@ The bot would have understood if the input was phrased less context-dependently,
 The bot does not recognize the name "Vaughn" as a name, like it would for others such as "Dingus", and in turn also thinks that the user was asking the bot to recall their name, which it does not know
 ![Demonstration of bad output](https://user-images.githubusercontent.com/70998757/160222101-3f149f63-9a3d-4ece-90e9-c6333ef59d69.jpg)
 
+## Limitation exhibit C: Button Output
+This version of the bot includes buttons that are built into the rasa core nlu, these buttons display perfectly in the rasa shell, but we have yet to determine a solution to have them incorporated into the fronted UI.

@@ -143,7 +143,7 @@ class ActionSubmitrestForm(Action):
         # testr = str(loc)+","+str(addr)+","+str(cuin)+","+str(rating)+","+str(dist)
         
         url = "https://google-maps-geocoding.p.rapidapi.com/geocode/json"
-        querystring = {"address":addr,"language":"en"}
+        querystring = {"address":addy,"language":"en"}
         headers = {
         'x-rapidapi-host': "google-maps-geocoding.p.rapidapi.com",
         'x-rapidapi-key': "90a274727dmsh607a63ae7dd7473p12f953jsn5e3fb6071646"
